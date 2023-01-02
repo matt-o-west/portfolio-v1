@@ -5,6 +5,8 @@ import Nav from './Nav'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
+import Overlay from './Overlay'
+import Contact from './Contact'
 import 'tailwindcss/tailwind.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
+      <Overlay />
     </div>
   )
 }
