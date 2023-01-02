@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='grid grid-cols-2 w-full mt-0 col-auto p-20 space-x-2'>
+    <div className='grid grid-cols-2 p-20'>
       <div>
         <h1 className='font-600 text-6xl mb-4'>
           hey, i'm{' '}

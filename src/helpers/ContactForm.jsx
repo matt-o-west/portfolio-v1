@@ -20,24 +20,30 @@ const ContactForm = () => {
         className='grid grid-rows-3 grid-cols-1 pt-6'
       >
         <label>
-          Name:
           <input
             type='text'
             value={state.value}
             onChange={handleChange}
-            className='ml-4 p-2 bg-zinc-600'
+            className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 focus:outline-none focus:border-teal-400 focus:ring-2'
+            placeholder='NAME'
           />
         </label>
         <label>
-          Email:
           <input
-            type='text'
+            type='email'
             value={state.value}
             onChange={handleChange}
-            className='ml-4 p-2 bg-zinc-600'
+            className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 invalid:border-red-600 invalid:border-4 focus:outline-none focus:border-teal-400 focus:ring-2'
+            placeholder='EMAIL'
           />
         </label>
-        <input type='' className='h-20 w-4/5 m-2 bg-zinc-600' />
+
+        <input
+          type=''
+          className='h-20 w-4/5 m-2 bg-zinc-800 placeholder-zinc-600 focus:outline-none focus:border-teal-400 focus:ring-2'
+          placeholder='MESSAGE'
+        />
+
         <button
           type='submit'
           value='Submit'
