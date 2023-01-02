@@ -2,10 +2,15 @@ import React from 'react'
 import { useState } from 'react'
 
 const ContactForm = () => {
-  const [state, setState] = useState({ value: '' })
+  const [name, setName] = useState({ value: '' })
+  const [email, setEmail] = useState({ value: '' })
 
-  const handleChange = (event) => {
-    setState({ value: event.target.value })
+  const handleNameChange = (event) => {
+    setName({ value: event.target.value })
+  }
+
+  const handleEmailChange = (event) => {
+    setEmail({ value: event.target.value })
   }
 
   const handleSubmit = (event) => {
@@ -22,8 +27,8 @@ const ContactForm = () => {
         <label>
           <input
             type='text'
-            value={state.value}
-            onChange={handleChange}
+            value={name.value}
+            onChange={handleNameChange}
             className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 focus:outline-none focus:border-teal-400 focus:ring-2'
             placeholder='NAME'
           />
@@ -31,8 +36,8 @@ const ContactForm = () => {
         <label>
           <input
             type='email'
-            value={state.value}
-            onChange={handleChange}
+            value={email.value}
+            onChange={handleEmailChange}
             className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 invalid:border-red-600 invalid:border-4 focus:outline-none focus:border-teal-400 focus:ring-2'
             placeholder='EMAIL'
           />
