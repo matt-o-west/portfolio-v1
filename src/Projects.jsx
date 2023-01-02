@@ -12,6 +12,7 @@ const Projects = () => {
             className='w-full z-auto'
           />
           <p className='font-600 text-2xl'>DESIGN PORTFOLIO</p>
+          <p className='font-400 text-xl'>Typescript Vite Emotion</p>
         </div>
         <div className='w-full px-6 object-cover md:object-scale-down'>
           <img
@@ -20,6 +21,7 @@ const Projects = () => {
             className='w-full z-auto'
           />
           <p className='font-600 text-2xl'>E-LEARNING APP</p>
+          <p className='font-400 text-xl'>Typescript Astro Tailwind</p>
         </div>
         <div className='w-full px-6 object-cover md:object-scale-down'>
           <img
@@ -28,6 +30,7 @@ const Projects = () => {
             className='w-full z-auto'
           />
           <p className='font-600 text-2xl'>TODO APP</p>
+          <p className='text-lg'>Typescript Next Sanity Tailwind</p>
         </div>
       </div>
     </div>
