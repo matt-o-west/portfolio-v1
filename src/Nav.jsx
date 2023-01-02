@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className='grid grid-cols-2 w-100 h-0 pt-3 px-10 z-50'>
-      <span className='font-600 w-1/3'>matt-o-west</span>
-      <div className='flex space-x-4 pl-60 z-20 lg:flex-auto'>
-        <a href='' className='font-600'>
+    <div className='absolute w-full pt-0 px-10 z-50'>
+      <p className='font-600 pt-1'>matt-o-west</p>
+      <div className='flex flex-row z-40 max-w-sm min-w-full space-x-4 justify-end pr-36'>
+        <a href='' className='font-600 top-0 left-0'>
           <img
             src='/images/icon-github.svg'
             alt='github'
@@ -14,7 +14,7 @@ const Nav = () => {
           />
         </a>
 
-        <a href='' className='font-600'>
+        <a href='' className='font-600 top-0 left-0'>
           <img
             src='/images/icon-frontend-mentor.svg'
             alt='frontend-mentor'
