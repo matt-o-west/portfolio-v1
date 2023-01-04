@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div className='absolute w-full pt-1 px-10 z-50'>
-      <p className='font-600 pt-1'>matt-o-west</p>
+      <p className='font-800 pt-1'>matt-o-west</p>
       <div className='flex flex-row z-40 max-w-sm min-w-full space-x-4 justify-end pr-36'>
         <a href='' className='font-600 top-0 left-0'>
           <img
