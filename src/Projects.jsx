@@ -5,7 +5,7 @@ const Projects = () => {
     <div>
       <div className='grid grid-cols-2 w-full'>
         <h1 className='col-span-1 font-600 text-5xl pt-20 pl-20'>Projects</h1>
-        <button className='underline justify-self-end py-2 col-span-1 mt-24 mr-10 w-1/5 decoration-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-sm'>
+        <button className='underline justify-self-end py-2 col-span-1 mt-24 mr-10 w-1/8 decoration-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-sm'>
           CONTACT ME
         </button>
       </div>
@@ -32,7 +32,14 @@ const Projects = () => {
           <img
             src='/images/thumbnail-project-3-large.webp'
             alt='project-one'
-            className='w-full z-auto py-2'
+            className='w-full z-auto my-2 hover:opacity-75 hover:bg-zinc-400 hover:bg-cover hover: cursor-pointer'
+          />
+          <a
+            href='/images/thumbnail-project-3-large.webp'
+            target='_blank'
+            rel='noreferrer'
+            value='Download'
+            className='hover:display-block'
           />
           <p className='font-600 text-2xl'>TODO APP</p>
           <p className='text-lg'>Typescript Next Sanity Tailwind</p>
