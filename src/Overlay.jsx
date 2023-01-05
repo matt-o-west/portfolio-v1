@@ -2,11 +2,11 @@ import React from 'react'
 
 const Overlay = () => {
   return (
-    <div className='static z-0'>
+    <div className='flex'>
       <img
         src='/images/pattern-circle.svg'
         alt='circle'
-        className='absolute top-64 w-1/8 left-2/3 -translate-x-1/2'
+        className='absolute top-64 w-1/8 left-3/4'
       />
       <img
         src='/images/pattern-rings.svg'
@@ -16,7 +16,7 @@ const Overlay = () => {
       <img
         src='/images/pattern-rings.svg'
         alt='rings'
-        className='absolute bottom-14 right-0 translate-x-60 w-1/8 scale-110'
+        className='absolute bottom-24 right-0 translate-x-60 w-1/8 scale-110'
       />
     </div>
   )

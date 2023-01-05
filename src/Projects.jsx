@@ -14,7 +14,7 @@ const Projects = () => {
           <img
             src='/images/thumbnail-project-1-large.webp'
             alt='project-one'
-            className='w-full z-auto'
+            className='w-full z-auto py-2'
           />
           <p className='font-600 text-2xl'>DESIGN PORTFOLIO</p>
           <p className='font-400 text-xl'>Typescript Vite Emotion</p>
@@ -23,7 +23,7 @@ const Projects = () => {
           <img
             src='/images/thumbnail-project-2-large.webp'
             alt='project-one'
-            className='w-full z-auto'
+            className='w-full z-auto py-2'
           />
           <p className='font-600 text-2xl'>E-LEARNING APP</p>
           <p className='font-400 text-xl'>Typescript Astro Tailwind</p>
@@ -32,7 +32,7 @@ const Projects = () => {
           <img
             src='/images/thumbnail-project-3-large.webp'
             alt='project-one'
-            className='w-full z-auto'
+            className='w-full z-auto py-2'
           />
           <p className='font-600 text-2xl'>TODO APP</p>
           <p className='text-lg'>Typescript Next Sanity Tailwind</p>
