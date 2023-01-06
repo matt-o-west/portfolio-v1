@@ -19,7 +19,7 @@ const Projects = () => {
           <p className='font-600 text-2xl'>DESIGN PORTFOLIO</p>
           <p className='font-400 text-xl'>Typescript Vite Emotion</p>
         </div>
-        <div className='w-full px-6 object-cover md:object-scale-down'>
+        <div className='w-full z-auto my-2 hover:opacity-75 hover:bg-zinc-400 hover:bg-cover hover: cursor-pointer'>
           <img
             src='/images/thumbnail-project-2-large.webp'
             alt='project-one'
@@ -28,7 +28,7 @@ const Projects = () => {
           <p className='font-600 text-2xl'>E-LEARNING APP</p>
           <p className='font-400 text-xl'>Typescript Astro Tailwind</p>
         </div>
-        <div className='w-full px-6 object-cover md:object-scale-down'>
+        <div className='w-full z-auto my-2 hover:opacity-75 hover:bg-zinc-400 hover:bg-cover hover: cursor-pointer'>
           <img
             src='/images/thumbnail-project-3-large.webp'
             alt='project-one'
