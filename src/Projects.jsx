@@ -20,8 +20,8 @@ const Projects = () => {
           <p className='font-600 text-2xl'>DESIGN PORTFOLIO</p>
           <p className='font-400 text-xl'>Typescript Vite Emotion</p>
         </div>
-        <div className='py-4'>
-          <div className='shadow-lg group container rounded-md bg-white  max-w-sm flex justify-center items-center mx-auto content-div project-one'>
+        <div className='py-4 transition-all '>
+          <div className='shadow-lg group container rounded-md bg-white  max-w-sm flex justify-center items-center mx-auto content-div project-one  ease-in duration-75'>
             <div>
               <div className='w-full image-cover rounded-t-md'>
                 <div className='p-2 m-4 w-28 h-10 bg-gray-700 rounded-md text-white float-right fd-cl group-hover:opacity-100'>
@@ -46,7 +46,7 @@ const Projects = () => {
               </div>
               <div className='py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25'>
                 <span className='block text-lg text-gray-800 font-bold tracking-wide'>
-                  Book a flight
+                  E-LEARNING APP
                 </span>
                 <span className='block text-gray-600 text-sm'>
                   Vivamus ac ligula sit amet erat luctus laoreet ac quis ligula.
@@ -56,13 +56,13 @@ const Projects = () => {
                 </span>
               </div>
             </div>
-            <div className='absolute opacity-0 fd-sh group-hover:opacity-100'>
-              <span className='text-3xl font-bold text-white tracking-wider leading-relaxed font-sans'>
-                Paris city of light
-              </span>
-              <div className='pt-8 text-center'>
-                <button className='text-center rounded-lg p-4 bg-white  text-gray-700 font-bold text-lg'>
-                  Learn more
+            <div className='absolute opacity-0 fd-sh group-hover:opacity-100 text-center'>
+              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+                DEMO
+              </button>
+              <div className='pt-2 text-center'>
+                <button className='py-0 px-4 mt-6 w-1/8 hover:scale-110 hover:transition-all hover:ease-in-out hover:bg-blend-lighten rounded-md'>
+                  <img src='/images/github-squared.svg' />
                 </button>
               </div>
             </div>

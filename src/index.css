@@ -7,30 +7,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-one {
   background-image:url('/images/thumbnail-project-1-large.webp');
 }
+
+.project-two {
+  background-image:url('/images/thumbnail-project-2-large.webp');
+}
+
+.project-three {
+  background-image:url('/images/thumbnail-project-3-large.webp');
+}
   .content-div:hover{
     background-image:
     linear-gradient(to right,
-     rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801) ),
-     url('/images/thumbnail-project-1-large.webp');
+    rgba(153, 246, 228, 0.801), hsla(160, 64%, 43%, 0.801));
+    background-repeat: no-repeat;
+
     }
 
     .image-cover  {
       height:260px;
-    }
-  /*
-  -remove the classes below if you have the 'group-hover'property added in your tailwind config file
-  -also remove the class from the html template
-  */
-    .content-div:hover .fd-cl{ 
- opacity: 0.25;
-    }
-    .content-div:hover .fd-sh{ 
- opacity: 1;
+      
     }
 
 @layer components {
