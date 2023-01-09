@@ -11,7 +11,7 @@ const About = () => {
           </span>
         </h1>
         <p>based in the US, i'm a frontend developer building web apps</p>
-        <button className='underline decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-sm'>
+        <button className='underline decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
           CONTACT ME
         </button>
       </div>
