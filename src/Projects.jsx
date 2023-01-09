@@ -13,7 +13,7 @@ const Projects = () => {
       <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 pl-20 pb-32'>
         {/* Card 1 */}
         <div className='py-4 transition-all '>
-          <div className='shadow-lg group container rounded-md bg-white  max-w-sm flex justify-center items-center mx-auto content-div project-one  ease-in duration-75'>
+          <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-one  ease-in duration-75'>
             <div>
               <div className='w-full image-cover rounded-t-md'>
                 <div className='p-2 m-4 w-28 h-10 bg-gray-700 rounded-md text-white float-right fd-cl group-hover:opacity-100'>
@@ -36,11 +36,11 @@ const Projects = () => {
                   </span>
                 </div>
               </div>
-              <div className='py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25'>
-                <span className='block text-lg text-gray-800 font-bold tracking-wide'>
+              <div className='py-8 px-4 bg-zinc-800  rounded-b-md fd-cl group-hover:opacity-25'>
+                <span className='block text-lg text-white font-bold tracking-wide'>
                   E-LEARNING APP
                 </span>
-                <span className='block text-gray-600 text-sm'>
+                <span className='block text-white text-sm'>
                   Vivamus ac ligula sit amet erat luctus laoreet ac quis ligula.
                   Donec bibendum faucibus purus eget cursus. Proin enim ante,
                   scelerisque vel sem sit amet, ultrices mollis risus. Praesent
@@ -62,7 +62,7 @@ const Projects = () => {
         </div>
         {/* Card 2 */}
         <div className='py-4 transition-all '>
-          <div className='shadow-lg group container rounded-md bg-white  max-w-sm flex justify-center items-center mx-auto content-div project-two  ease-in duration-75'>
+          <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-two  ease-in duration-75'>
             <div>
               <div className='w-full image-cover rounded-t-md'>
                 <div className='p-2 m-4 w-28 h-10 bg-gray-700 rounded-md text-white float-right fd-cl group-hover:opacity-100'>
@@ -85,11 +85,11 @@ const Projects = () => {
                   </span>
                 </div>
               </div>
-              <div className='py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25'>
-                <span className='block text-lg text-gray-800 font-bold tracking-wide'>
+              <div className='py-8 px-4 bg-zinc-800  rounded-b-md fd-cl group-hover:opacity-25'>
+                <span className='block text-lg text-white font-bold tracking-wide'>
                   BLOG
                 </span>
-                <span className='block text-gray-600 text-sm'>
+                <span className='block text-white text-sm'>
                   Vivamus ac ligula sit amet erat luctus laoreet ac quis ligula.
                   Donec bibendum faucibus purus eget cursus. Proin enim ante,
                   scelerisque vel sem sit amet, ultrices mollis risus. Praesent
@@ -112,7 +112,7 @@ const Projects = () => {
         {/* Card 3 */}
 
         <div className='py-4 transition-all '>
-          <div className='shadow-lg group container rounded-md bg-white  max-w-sm flex justify-center items-center mx-auto content-div project-three  ease-in duration-75'>
+          <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-three  ease-in duration-75'>
             <div>
               <div className='w-full image-cover rounded-t-md'>
                 <div className='p-2 m-4 w-28 h-10 bg-gray-700 rounded-md text-white float-right fd-cl group-hover:opacity-100'>
@@ -135,11 +135,11 @@ const Projects = () => {
                   </span>
                 </div>
               </div>
-              <div className='py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25'>
-                <span className='block text-lg text-gray-800 font-bold tracking-wide'>
+              <div className='py-8 px-4 bg-zinc-800  rounded-b-md fd-cl group-hover:opacity-25'>
+                <span className='block text-lg text-white font-bold tracking-wide'>
                   TODO APP
                 </span>
-                <span className='block text-gray-600 text-sm'>
+                <span className='block text-white text-sm'>
                   Vivamus ac ligula sit amet erat luctus laoreet ac quis ligula.
                   Donec bibendum faucibus purus eget cursus. Proin enim ante,
                   scelerisque vel sem sit amet, ultrices mollis risus. Praesent
