@@ -5,8 +5,8 @@ const Overlay = () => {
     <div className='flex'>
       <img
         src='/images/pattern-circle.svg'
-        alt='circle'
-        className='absolute top-64 w-1/8 left-3/4'
+        alt='rings'
+        className='absolute bottom-96 right-72 w-1/8'
       />
       <img
         src='/images/pattern-rings.svg'

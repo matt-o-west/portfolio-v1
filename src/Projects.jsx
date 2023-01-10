@@ -10,7 +10,7 @@ const Projects = () => {
           CONTACT ME
         </button>
       </div>
-      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 pl-20 pb-32'>
+      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 px-20 pb-32'>
         {/* Card 1 */}
         <div className='py-4'>
           <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-one ease-in duration-75'>
