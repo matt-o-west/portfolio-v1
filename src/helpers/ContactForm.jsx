@@ -1,7 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
+import { send } from 'emailjs-com'
 
 const ContactForm = () => {
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    to_name: '',
+    message: '',
+    reply_to: '',
+  })
   const [name, setName] = useState({ value: '' })
   const [email, setEmail] = useState({ value: '' })
 
@@ -10,12 +17,19 @@ const ContactForm = () => {
   }
 
   const handleEmailChange = (event) => {
-    setEmail({ value: event.target.value })
+    setToSend({ ...toSend, [event.target.name]: event.target.value })
   }
 
   const handleSubmit = (event) => {
     alert('A name was submitted: ' + name.value)
     event.preventDefault()
+    send('service_xin3emg', 'template_8x9x7xg', toSend, 'user_8x9x7xg')
+      .then((response) => {
+        console.log('SUCCESS!', response)
+      })
+      .catch((err) => {
+        console.log('FAILED...', err)
+      })
   }
 
   return (

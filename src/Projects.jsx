@@ -6,11 +6,11 @@ const Projects = () => {
     <div>
       <div className='grid grid-cols-2 w-full'>
         <h1 className='col-span-1 font-600 text-5xl pt-20 pl-20'>Projects</h1>
-        <button className='underline justify-self-end py-2 col-span-1 mt-24 mr-10 w-1/8 decoration-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
+        <button className='underline justify-self-end py-2 col-span-1 mt-24 mr-10 w-1/8 min-[320px]:pt-20 decoration-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
           CONTACT ME
         </button>
       </div>
-      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 px-20 pb-32'>
+      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 px-20 pb-32  lg:grid-cols-3 sm:grid-cols-1 min-[320px]:grid-cols-1 max-[360px]:p-8'>
         {/* Card 1 */}
         <div className='py-4'>
           <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-one ease-in duration-75'>
@@ -110,7 +110,6 @@ const Projects = () => {
           </div>
         </div>
         {/* Card 3 */}
-
         <div className='py-4 transition-all '>
           <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-three  ease-in duration-75'>
             <div>
