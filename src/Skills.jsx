@@ -2,8 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='grid grid-cols-3 grid-rows-2 gap-y-0 gap-x-44 pt-32 pb-8 pl-52 w-2/3 md:invisible lg:grid'>
-      <h2 className='text-5xl'>Skills</h2>
+    <div className='grid grid-cols-3 grid-rows-2 gap-y-20 gap-x-0 pl-12 pt-32 pb-8 lg:pl-52 md:invisible md:pt-0 md:pb-0 md:pl-20 lg:visible lg:pt-32 lg:justify-center lg:pr-96 md:pr-32 xs:pl-10'>
       <img
         src='https://img.icons8.com/color/48/000000/react-native.png'
         alt='react'

@@ -2,18 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='grid grid-cols-2 p-10 pt-20 md:m-0 lg:grid-cols-1'>
+    <div className='grid grid-cols-2 gap-x-2 p-10 pt-20 md:m-0 lg:grid-cols-1'>
       <div className=''>
-        <h1 className='font-600 text-6xl mb-4'>
+        <h1 className='font-600 text-6xl mb-4 sm:text-8xl'>
           hey, i'm{' '}
           <span className='underline decoration-teal-400 decoration-8 hover:scale-125'>
             matt
           </span>
         </h1>
-        <p className='max-[360px]:m-0 max-[360px]:'>
+        <p className='max-[360px]:m-0 text-2xl'>
           based in the US, i'm a frontend developer building web apps
         </p>
-        <button className='underline decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
+        <button className='underline text-2xl decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
           CONTACT ME
         </button>
       </div>
@@ -21,7 +21,7 @@ const About = () => {
         <img
           src='/images/image-profile-desktop.webp'
           alt='profile'
-          className='w-60 top-0 right-40 lg:absolute lg:w-96 max-[480px]:300px; max-[480px]:invisible min-w-0 md:w-72 md:ml-32 z-index-0'
+          className='w-60 top-0 right-16 lg:absolute lg:w-96 max-[480px]:300px; max-[480px]:invisible min-w-0 md:w-72 md:ml-32 z-index-0'
         />
       </div>
     </div>

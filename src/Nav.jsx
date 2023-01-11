@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className='absolute w-full pl-10 z-50'>
       <p className='font-800 pt-1'>matt-o-west</p>
-      <div className='flex flex-row z-40 max-w-sm min-w-full space-x-4 justify-end pr-36 max-[360px]:p-4 max-[360px]: lg:pr-52'>
+      <div className='flex flex-row z-40 max-w-sm min-w-full space-x-4 justify-end pr-36 max-[360px]:p-4 max-[360px]: lg:pr-52 md:scale-125 xl:scale-150 xl:pr-96 xl:translate-x-8'>
         <a href='' className='font-600 top-0 left-0'>
           <img
             src='/images/icon-github.svg'
