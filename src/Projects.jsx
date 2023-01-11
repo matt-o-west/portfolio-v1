@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <div className='grid grid-cols-2 w-full'>
         <h1 className='col-span-1 font-600 text-5xl pt-20 pl-20'>Projects</h1>
-        <button className='underline justify-self-end py-2 col-span-1 mt-24 mr-10 w-1/8 min-[320px]:pt-20 decoration-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
+        <button className='underline static z-50 max-sm-[350px]:invisible justify-self-end mr-10 lg:mt-24 md:mt-20 sm:mt-20  decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
           CONTACT ME
         </button>
       </div>
