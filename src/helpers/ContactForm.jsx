@@ -33,10 +33,10 @@ const ContactForm = () => {
   }
 
   return (
-    <div className='row-span-2 pl-12'>
+    <div className='row-span-2 max-[360px]:co mb-6 mt-6'>
       <form
         onSubmit={handleSubmit}
-        className='grid grid-rows-3 grid-cols-1 pt-6'
+        className='grid grid-rows-3 lg:pt-32 md:pt-0 gap-y-4 pl-6'
       >
         <label>
           <input
