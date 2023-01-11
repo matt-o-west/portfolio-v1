@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='grid grid-cols-2 p-10 pt-20 md:max-w-md md:grid-cols-1'>
-      <div>
+    <div className='grid grid-cols-2 p-10 pt-20 md:m-0 lg:grid-cols-1'>
+      <div className=''>
         <h1 className='font-600 text-6xl mb-4'>
           hey, i'm{' '}
           <span className='underline decoration-teal-400 decoration-8 hover:scale-125'>
@@ -21,7 +21,7 @@ const About = () => {
         <img
           src='/images/image-profile-desktop.webp'
           alt='profile'
-          className='w-60 top-0 right-40 absolute max-[480px]:200px; max-[480px]:invisible max-[480px]:grid-cols-1 min-w-0 md:w-80 md:max-w-min md:pl-32 z-index-0'
+          className='w-60 top-0 right-40 lg:absolute max-[480px]:200px; max-[480px]:invisible min-w-0 md:w-80 md:max-w-min md:pl-32 md:ml-32 z-index-0'
         />
       </div>
     </div>
