@@ -4,26 +4,19 @@ import { send } from 'emailjs-com'
 
 const ContactForm = () => {
   const [toSend, setToSend] = useState({
-    from_name: '',
-    to_name: '',
+    name: '',
+    email: '',
     message: '',
-    reply_to: '',
   })
-  const [name, setName] = useState({ value: '' })
-  const [email, setEmail] = useState({ value: '' })
-
-  const handleNameChange = (event) => {
-    setName({ value: event.target.value })
-  }
 
   const handleEmailChange = (event) => {
     setToSend({ ...toSend, [event.target.name]: event.target.value })
   }
 
   const handleSubmit = (event) => {
-    alert('A name was submitted: ' + name.value)
+    alert('A name was submitted: ' + toSend.name)
     event.preventDefault()
-    send('service_xin3emg', 'template_8x9x7xg', toSend, 'user_8x9x7xg')
+    send('service_wyiajrc', 'template_daavrko', toSend, 'zSYbQXaqcLfKJRZUd')
       .then((response) => {
         console.log('SUCCESS!', response)
       })
@@ -41,8 +34,7 @@ const ContactForm = () => {
         <label>
           <input
             type='text'
-            value={name.value}
-            onChange={handleNameChange}
+            onChange={handleEmailChange}
             className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400 border-b-4 border-teal-400 hover:border-teal-200 required'
             placeholder='NAME'
           />
@@ -50,7 +42,6 @@ const ContactForm = () => {
         <label>
           <input
             type='email'
-            value={email.value}
             onChange={handleEmailChange}
             className='ml-4 p-2 bg-zinc-800 placeholder-zinc-600 invalid:border-red-600 invalid:border-4 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400 border-b-4 border-teal-400 hover:border-teal-200 required'
             placeholder='EMAIL'
@@ -61,6 +52,7 @@ const ContactForm = () => {
           type=''
           className='h-20 w-4/5 m-2 bg-zinc-800 placeholder-zinc-600 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400 border-b-4 border-teal-400 hover:border-teal-200 required'
           placeholder=' MESSAGE'
+          onChange={handleEmailChange}
         />
 
         <button

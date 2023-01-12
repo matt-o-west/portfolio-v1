@@ -10,7 +10,7 @@ const Nav = () => {
           <img
             src='/images/icon-github.svg'
             alt='github'
-            className='hover:scale-125 hover:transition-all hover:ease-in-out'
+            className='hover:scale-125 hover:transition-all hover:ease-in-out hover:fill-teal-600'
           />
         </a>
 

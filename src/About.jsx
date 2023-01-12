@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='grid grid-cols-2 gap-x-2 p-10 pt-20 md:m-0 lg:grid-cols-1'>
-      <div className=''>
+      <div className='z-40 '>
         <h1 className='font-600 text-6xl mb-4 sm:text-8xl'>
           hey, i'm{' '}
           <span className='underline decoration-teal-400 decoration-8 hover:scale-125'>
