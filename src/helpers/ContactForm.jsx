@@ -10,11 +10,14 @@ const ContactForm = () => {
   })
 
   const handleChange = (event) => {
+    console.log(event.target.value)
     setToSend({
+      ...toSend,
       [event.target.name]: event.target.value,
       [event.target.email]: event.target.value,
       [event.target.message]: event.target.value,
     })
+    console.log(toSend)
   }
 
   const handleSubmit = (event) => {
