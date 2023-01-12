@@ -1,14 +1,17 @@
 import React from 'react'
 import './index.css'
 
-const Projects = () => {
+const Projects = ({ handleClick }) => {
   return (
     <div>
       <div className='grid grid-cols-2 w-full'>
         <h1 className='col-span-1 font-600 text-5xl pt-20 pl-20 justify-items-center'>
           projects
         </h1>
-        <button className='underline text-2xl static z-50 max-md-[350px]:invisible justify-self-end mr-10 lg:mt-24 md:mt-20 sm:mt-20  decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
+        <button
+          onClick={handleClick}
+          className='underline text-2xl static z-50 max-md-[350px]:invisible justify-self-end mr-10 lg:mt-24 md:mt-20 sm:mt-20  decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'
+        >
           CONTACT ME
         </button>
       </div>

@@ -8,17 +8,22 @@ import Overlay from './Overlay'
 import Contact from './Contact'
 import Footer from './Footer'
 import 'tailwindcss/tailwind.css'
+import { useRef } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const ref = useRef(null)
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <div className='App'>
       <Nav />
-      <About />
+      <About handleClick={handleClick} />
       <Skills />
-      <Projects />
-      <Contact />
+      <Projects handleClick={handleClick} />
+      <Contact ref={ref} text='contact' />
       <Footer />
       <Overlay />
     </div>

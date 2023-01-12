@@ -1,6 +1,9 @@
 import React from 'react'
+import { useRef } from 'react'
 
-const About = () => {
+const About = ({ handleClick }) => {
+  const ref = useRef(null)
+
   return (
     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-x-2 p-10 pt-20 md:m-0'>
       <div className='z-40 '>
@@ -11,9 +14,13 @@ const About = () => {
           </span>
         </h1>
         <p className='max-[360px]:m-0 text-2xl'>
-          based in the US, i'm a frontend developer building web apps
+          based in the US, i'm a frontend developer building web apps. want to
+          work together?
         </p>
-        <button className='underline text-2xl decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
+        <button
+          onClick={handleClick}
+          className='underline text-2xl decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'
+        >
           CONTACT ME
         </button>
       </div>
