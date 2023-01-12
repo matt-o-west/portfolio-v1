@@ -4,10 +4,10 @@ import ContactForm from './helpers/ContactForm'
 
 const Contact = () => {
   return (
-    <div className='lg:grid md:flex lg:grid-cols-2 md:grid-cols-1 md:pt-0 grid-rows-2 bg-zinc-800 pl-20 max-[360px]:pl-20'>
-      <h1 className='text-5xl text-left pt-12'>Contact</h1>
+    <div className='lg:grid lg:grid-cols-2 md:grid-cols-1 md:pt-0 grid-rows-2 bg-zinc-800 pl-20 max-[360px]:pl-20'>
+      <h1 className='text-5xl text-left pt-12'>contact</h1>
       <ContactForm />
-      <p className='text-left pb-10'>
+      <p className='text-left pb-10 mr-10'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nostrum
         quisquam dolor, quibusdam tenetur ut corrupti animi, quia eius
         voluptatem sapiente eum eaque reprehenderit vitae laudantium nam

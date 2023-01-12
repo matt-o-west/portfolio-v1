@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='grid grid-cols-2 gap-x-2 p-10 pt-20 md:m-0 lg:grid-cols-1'>
+    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-x-2 p-10 pt-20 md:m-0'>
       <div className='z-40 '>
         <h1 className='font-600 text-6xl mb-4 sm:text-8xl'>
           hey, i'm{' '}
@@ -21,7 +21,7 @@ const About = () => {
         <img
           src='/images/image-profile-desktop.webp'
           alt='profile'
-          className='w-60 top-0 right-16 lg:absolute lg:w-96 max-[480px]:300px; max-[480px]:invisible min-w-0 md:w-72 md:ml-32 z-index-0'
+          className='w-60 top-0 lg:right-16 lg:absolute lg:w-96 max-[480px]:hidden min-w-0 md:w-72 md:ml-32 z-index-0 xs:transform xs:scale-75 xs:translate-x-10 xs:translate-y-10 xs:z-0'
         />
       </div>
     </div>

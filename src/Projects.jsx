@@ -6,13 +6,13 @@ const Projects = () => {
     <div>
       <div className='grid grid-cols-2 w-full'>
         <h1 className='col-span-1 font-600 text-5xl pt-20 pl-20 justify-items-center'>
-          Projects
+          projects
         </h1>
         <button className='underline text-2xl static z-50 max-md-[350px]:invisible justify-self-end mr-10 lg:mt-24 md:mt-20 sm:mt-20  decoration-teal-400 decoration-2 my-8 py-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 px-2 rounded-md'>
           CONTACT ME
         </button>
       </div>
-      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-10 px-12 pb-32  lg:grid-cols-3 sm:grid-cols-1 min-[320px]:grid-cols-1 max-[360px]:p-8'>
+      <div className='grid grid-cols-3 gap-x-10 gap-y-10 pt-1 px-12 pb-32  lg:grid-cols-3 sm:grid-cols-1 min-[320px]:grid-cols-1 max-[360px]:p-8'>
         {/* Card 1 */}
         <div className='py-4'>
           <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-one ease-in duration-75'>
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
             </div>
             <div className='absolute opacity-0 fd-sh group-hover:opacity-100 text-center'>
-              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:decoration-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
                 DEMO
               </button>
               <div className='pt-2 text-center'>
@@ -100,7 +100,7 @@ const Projects = () => {
               </div>
             </div>
             <div className='absolute opacity-0 fd-sh group-hover:opacity-100 text-center'>
-              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:decoration-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
                 DEMO
               </button>
               <div className='pt-2 text-center'>
@@ -149,7 +149,7 @@ const Projects = () => {
               </div>
             </div>
             <div className='absolute opacity-0 fd-sh group-hover:opacity-100 text-center'>
-              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+              <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-black text-black decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:decoration-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
                 DEMO
               </button>
               <div className='pt-2 text-center'>
