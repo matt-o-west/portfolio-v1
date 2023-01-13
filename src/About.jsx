@@ -14,8 +14,8 @@ const About = ({ handleClick }) => {
           </span>
         </h1>
         <p className='max-[360px]:m-0 text-2xl'>
-          based in the US, i'm a frontend developer building web apps. want to
-          work together?
+          based in the US, i'm a frontend developer building web apps. <br></br>
+          want to work together?
         </p>
         <button
           onClick={handleClick}
