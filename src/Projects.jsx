@@ -124,6 +124,15 @@ const Projects = ({ handleClick }) => {
             </div>
           </div>
         </div>
+        {/* Mobile buttons */}
+        <div className='grid grid-cols-2 lg:hidden md:hidden p-0 justify-self-center space-x-4'>
+          <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-teal-400 text-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:decoration-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+            DEMO
+          </button>
+          <button className='py-0 px-6 lg:mt-6 w-1/8 hover:scale-110 hover:transition-all hover:ease-in-out hover:bg-blend-lighten rounded-md'>
+            <img src='/images/github-mobile.svg' />
+          </button>
+        </div>
         {/* Card 3 */}
         <div className='mt-6 transition-all '>
           <div className='shadow-lg group container rounded-lg bg-zinc-900  max-w-sm flex justify-center items-center mx-auto content-div project-three  ease-in duration-75'>
@@ -172,6 +181,15 @@ const Projects = ({ handleClick }) => {
               </div>
             </div>
           </div>
+        </div>
+        {/* Mobile buttons */}
+        <div className='grid grid-cols-2 lg:hidden md:hidden p-0 justify-self-center space-x-4'>
+          <button className='underline text-xl py-2 px-4 mt-6 my-2 w-1/8 decoration-teal-400 text-teal-400 decoration-2 hover:scale-110 hover:transition-all hover:ease-in-out hover:text-teal-400 hover:decoration-teal-400 hover:bg-blend-darken hover:bg-zinc-800 rounded-md'>
+            DEMO
+          </button>
+          <button className='py-0 px-6 lg:mt-6 w-1/8 hover:scale-110 hover:transition-all hover:ease-in-out hover:bg-blend-lighten rounded-md'>
+            <img src='/images/github-mobile.svg' />
+          </button>
         </div>
       </div>
     </div>
